@@ -39,7 +39,7 @@ a{
 }
 .navbar{
     top: 0;
-    position: fixed;
+    position: absolute;
     overflow: hidden;;
     background-color: rgba(0, 0, 0, 0.258);
 }
