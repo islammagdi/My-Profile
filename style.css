@@ -1,23 +1,45 @@
 html{
     scroll-behavior: smooth;
 }
-
 body{
     transition: scroll-behavior 0.3s ease-in;
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
-}
-a{
-    color: white;
-    text-decoration: none;
+    -webkit-transition: scroll-behavior 0.3s ease-in;
+    -moz-transition: scroll-behavior 0.3s ease-in;
+    -ms-transition: scroll-behavior 0.3s ease-in;
+    -o-transition: scroll-behavior 0.3s ease-in;
 }
 *{
     margin: 0;
     padding: 0;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
+.back-top{
+    text-align: center;
+    border-radius: 5px;
+    bottom: 30px;
+    right: 30px;
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(237, 17, 94);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.back-top i{
+    margin-top: 12px;
+    color: rgb(255, 255, 255);
+}
 .navbar{
-    position: absolute;
+    top: 0;
+    position: fixed;
     overflow: hidden;;
     background-color: rgba(0, 0, 0, 0.258);
 }
