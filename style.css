@@ -1,7 +1,16 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
+    transition: scroll-behavior 0.3s ease-in;
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
 }
 *{
     margin: 0;
